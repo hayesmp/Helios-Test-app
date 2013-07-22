@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BADF946217989B0900D5D6CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADF946117989B0900D5D6CA /* UIKit.framework */; };
+		BADF946417989B0900D5D6CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADF946317989B0900D5D6CA /* Foundation.framework */; };
+		BADF946617989B0900D5D6CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADF946517989B0900D5D6CA /* CoreGraphics.framework */; };
+		BADF946817989B0900D5D6CA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADF946717989B0900D5D6CA /* CoreData.framework */; };
+		BADF946E17989B0900D5D6CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BADF946C17989B0900D5D6CA /* InfoPlist.strings */; };
+		BADF947017989B0900D5D6CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF946F17989B0900D5D6CA /* main.m */; };
+		BADF947417989B0900D5D6CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF947317989B0900D5D6CA /* AppDelegate.m */; };
+		BADF947617989B0900D5D6CA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BADF947517989B0900D5D6CA /* Default.png */; };
+		BADF947817989B0900D5D6CA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BADF947717989B0900D5D6CA /* Default@2x.png */; };
+		BADF947A17989B0900D5D6CA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BADF947917989B0900D5D6CA /* Default-568h@2x.png */; };
+		BADF947D17989B0900D5D6CA /* rackspace_helios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BADF947B17989B0900D5D6CA /* rackspace_helios.xcdatamodeld */; };
+		BADF949A1799CCB500D5D6CA /* LocationData.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF94991799CCB500D5D6CA /* LocationData.m */; };
+		BADF949D1799CCEA00D5D6CA /* LocationImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF949C1799CCEA00D5D6CA /* LocationImage.m */; };
+		BADF94A01799CCF400D5D6CA /* LocationMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF949F1799CCF400D5D6CA /* LocationMarker.m */; };
+		BADF94A31799CD7700D5D6CA /* LocationMarkerForm.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF94A21799CD7700D5D6CA /* LocationMarkerForm.m */; };
+		BADF94A61799D05D00D5D6CA /* PrimaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF94A51799D05D00D5D6CA /* PrimaryViewController.m */; };
+		BADF94AA1799D49100D5D6CA /* Rackspace-helios.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADF94A91799D49100D5D6CA /* Rackspace-helios.storyboard */; };
+		BADF94AC179D94F600D5D6CA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADF94AB179D94F600D5D6CA /* CoreLocation.framework */; };
+		BADF94AE179D94FD00D5D6CA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADF94AD179D94FD00D5D6CA /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BADF945E17989B0900D5D6CA /* rackspace-helios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rackspace-helios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADF946117989B0900D5D6CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BADF946317989B0900D5D6CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BADF946517989B0900D5D6CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BADF946717989B0900D5D6CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BADF946B17989B0900D5D6CA /* rackspace-helios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rackspace-helios-Info.plist"; sourceTree = "<group>"; };
+		BADF946D17989B0900D5D6CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BADF946F17989B0900D5D6CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BADF947117989B0900D5D6CA /* rackspace-helios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rackspace-helios-Prefix.pch"; sourceTree = "<group>"; };
+		BADF947217989B0900D5D6CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BADF947317989B0900D5D6CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BADF947517989B0900D5D6CA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BADF947717989B0900D5D6CA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BADF947917989B0900D5D6CA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BADF947C17989B0900D5D6CA /* rackspace_helios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = rackspace_helios.xcdatamodel; sourceTree = "<group>"; };
+		BADF94981799CCB500D5D6CA /* LocationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationData.h; sourceTree = "<group>"; };
+		BADF94991799CCB500D5D6CA /* LocationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationData.m; sourceTree = "<group>"; };
+		BADF949B1799CCEA00D5D6CA /* LocationImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationImage.h; sourceTree = "<group>"; };
+		BADF949C1799CCEA00D5D6CA /* LocationImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationImage.m; sourceTree = "<group>"; };
+		BADF949E1799CCF400D5D6CA /* LocationMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationMarker.h; sourceTree = "<group>"; };
+		BADF949F1799CCF400D5D6CA /* LocationMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationMarker.m; sourceTree = "<group>"; };
+		BADF94A11799CD7700D5D6CA /* LocationMarkerForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationMarkerForm.h; sourceTree = "<group>"; };
+		BADF94A21799CD7700D5D6CA /* LocationMarkerForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationMarkerForm.m; sourceTree = "<group>"; };
+		BADF94A41799D05D00D5D6CA /* PrimaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrimaryViewController.h; path = views/PrimaryViewController.h; sourceTree = "<group>"; };
+		BADF94A51799D05D00D5D6CA /* PrimaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrimaryViewController.m; path = views/PrimaryViewController.m; sourceTree = "<group>"; };
+		BADF94A91799D49100D5D6CA /* Rackspace-helios.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Rackspace-helios.storyboard"; path = "views/Rackspace-helios.storyboard"; sourceTree = "<group>"; };
+		BADF94AB179D94F600D5D6CA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BADF94AD179D94FD00D5D6CA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BADF945B17989B0900D5D6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADF94AE179D94FD00D5D6CA /* MapKit.framework in Frameworks */,
+				BADF94AC179D94F600D5D6CA /* CoreLocation.framework in Frameworks */,
+				BADF946217989B0900D5D6CA /* UIKit.framework in Frameworks */,
+				BADF946417989B0900D5D6CA /* Foundation.framework in Frameworks */,
+				BADF946617989B0900D5D6CA /* CoreGraphics.framework in Frameworks */,
+				BADF946817989B0900D5D6CA /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BADF945517989B0900D5D6CA = {
+			isa = PBXGroup;
+			children = (
+				BADF946917989B0900D5D6CA /* rackspace-helios */,
+				BADF946017989B0900D5D6CA /* Frameworks */,
+				BADF945F17989B0900D5D6CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BADF945F17989B0900D5D6CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BADF945E17989B0900D5D6CA /* rackspace-helios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BADF946017989B0900D5D6CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BADF94AD179D94FD00D5D6CA /* MapKit.framework */,
+				BADF94AB179D94F600D5D6CA /* CoreLocation.framework */,
+				BADF946117989B0900D5D6CA /* UIKit.framework */,
+				BADF946317989B0900D5D6CA /* Foundation.framework */,
+				BADF946517989B0900D5D6CA /* CoreGraphics.framework */,
+				BADF946717989B0900D5D6CA /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BADF946917989B0900D5D6CA /* rackspace-helios */ = {
+			isa = PBXGroup;
+			children = (
+				BADF94A81799D07C00D5D6CA /* data */,
+				BADF94A71799D06A00D5D6CA /* views */,
+				BADF947217989B0900D5D6CA /* AppDelegate.h */,
+				BADF947317989B0900D5D6CA /* AppDelegate.m */,
+				BADF947B17989B0900D5D6CA /* rackspace_helios.xcdatamodeld */,
+				BADF946A17989B0900D5D6CA /* Supporting Files */,
+			);
+			path = "rackspace-helios";
+			sourceTree = "<group>";
+		};
+		BADF946A17989B0900D5D6CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BADF946B17989B0900D5D6CA /* rackspace-helios-Info.plist */,
+				BADF946C17989B0900D5D6CA /* InfoPlist.strings */,
+				BADF946F17989B0900D5D6CA /* main.m */,
+				BADF947117989B0900D5D6CA /* rackspace-helios-Prefix.pch */,
+				BADF947517989B0900D5D6CA /* Default.png */,
+				BADF947717989B0900D5D6CA /* Default@2x.png */,
+				BADF947917989B0900D5D6CA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BADF94A71799D06A00D5D6CA /* views */ = {
+			isa = PBXGroup;
+			children = (
+				BADF94A41799D05D00D5D6CA /* PrimaryViewController.h */,
+				BADF94A51799D05D00D5D6CA /* PrimaryViewController.m */,
+				BADF94A91799D49100D5D6CA /* Rackspace-helios.storyboard */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		BADF94A81799D07C00D5D6CA /* data */ = {
+			isa = PBXGroup;
+			children = (
+				BADF94981799CCB500D5D6CA /* LocationData.h */,
+				BADF94991799CCB500D5D6CA /* LocationData.m */,
+				BADF949E1799CCF400D5D6CA /* LocationMarker.h */,
+				BADF949F1799CCF400D5D6CA /* LocationMarker.m */,
+				BADF949B1799CCEA00D5D6CA /* LocationImage.h */,
+				BADF949C1799CCEA00D5D6CA /* LocationImage.m */,
+				BADF94A11799CD7700D5D6CA /* LocationMarkerForm.h */,
+				BADF94A21799CD7700D5D6CA /* LocationMarkerForm.m */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BADF945D17989B0900D5D6CA /* rackspace-helios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADF948017989B0900D5D6CA /* Build configuration list for PBXNativeTarget "rackspace-helios" */;
+			buildPhases = (
+				BADF945A17989B0900D5D6CA /* Sources */,
+				BADF945B17989B0900D5D6CA /* Frameworks */,
+				BADF945C17989B0900D5D6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rackspace-helios";
+			productName = "rackspace-helios";
+			productReference = BADF945E17989B0900D5D6CA /* rackspace-helios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BADF945617989B0900D5D6CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = rackerlabs;
+			};
+			buildConfigurationList = BADF945917989B0900D5D6CA /* Build configuration list for PBXProject "rackspace-helios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BADF945517989B0900D5D6CA;
+			productRefGroup = BADF945F17989B0900D5D6CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BADF945D17989B0900D5D6CA /* rackspace-helios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BADF945C17989B0900D5D6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADF946E17989B0900D5D6CA /* InfoPlist.strings in Resources */,
+				BADF947617989B0900D5D6CA /* Default.png in Resources */,
+				BADF947817989B0900D5D6CA /* Default@2x.png in Resources */,
+				BADF947A17989B0900D5D6CA /* Default-568h@2x.png in Resources */,
+				BADF94AA1799D49100D5D6CA /* Rackspace-helios.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BADF945A17989B0900D5D6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADF947017989B0900D5D6CA /* main.m in Sources */,
+				BADF947417989B0900D5D6CA /* AppDelegate.m in Sources */,
+				BADF947D17989B0900D5D6CA /* rackspace_helios.xcdatamodeld in Sources */,
+				BADF949A1799CCB500D5D6CA /* LocationData.m in Sources */,
+				BADF949D1799CCEA00D5D6CA /* LocationImage.m in Sources */,
+				BADF94A01799CCF400D5D6CA /* LocationMarker.m in Sources */,
+				BADF94A31799CD7700D5D6CA /* LocationMarkerForm.m in Sources */,
+				BADF94A61799D05D00D5D6CA /* PrimaryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BADF946C17989B0900D5D6CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADF946D17989B0900D5D6CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BADF947E17989B0900D5D6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BADF947F17989B0900D5D6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BADF948117989B0900D5D6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rackspace-helios/rackspace-helios-Prefix.pch";
+				INFOPLIST_FILE = "rackspace-helios/rackspace-helios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BADF948217989B0900D5D6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rackspace-helios/rackspace-helios-Prefix.pch";
+				INFOPLIST_FILE = "rackspace-helios/rackspace-helios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BADF945917989B0900D5D6CA /* Build configuration list for PBXProject "rackspace-helios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADF947E17989B0900D5D6CA /* Debug */,
+				BADF947F17989B0900D5D6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BADF948017989B0900D5D6CA /* Build configuration list for PBXNativeTarget "rackspace-helios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADF948117989B0900D5D6CA /* Debug */,
+				BADF948217989B0900D5D6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BADF947B17989B0900D5D6CA /* rackspace_helios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BADF947C17989B0900D5D6CA /* rackspace_helios.xcdatamodel */,
+			);
+			currentVersion = BADF947C17989B0900D5D6CA /* rackspace_helios.xcdatamodel */;
+			path = rackspace_helios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BADF945617989B0900D5D6CA /* Project object */;
+}

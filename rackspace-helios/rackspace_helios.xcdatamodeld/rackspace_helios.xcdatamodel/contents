@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="LocationData" representedClassName="LocationData" syncable="YES">
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="location" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="LocationMarker" inverseName="location" inverseEntity="LocationMarker" syncable="YES"/>
+    </entity>
+    <entity name="LocationImage" representedClassName="LocationImage" syncable="YES">
+        <attribute name="container" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filename" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="image" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="LocationMarker" inverseName="image" inverseEntity="LocationMarker" syncable="YES"/>
+    </entity>
+    <entity name="LocationMarker" representedClassName="LocationMarker" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="image" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="LocationImage" inverseName="image" inverseEntity="LocationImage" syncable="YES"/>
+        <relationship name="location" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="LocationData" inverseName="location" inverseEntity="LocationData" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="LocationMarker" positionX="-227" positionY="-4" width="128" height="88"/>
+        <element name="LocationData" positionX="-63" positionY="54" width="128" height="88"/>
+        <element name="LocationImage" positionX="-63" positionY="-79" width="128" height="88"/>
+    </elements>
+</model>
