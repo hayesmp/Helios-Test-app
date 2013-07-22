@@ -22,10 +22,12 @@
 		BADF949D1799CCEA00D5D6CA /* LocationImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF949C1799CCEA00D5D6CA /* LocationImage.m */; };
 		BADF94A01799CCF400D5D6CA /* LocationMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF949F1799CCF400D5D6CA /* LocationMarker.m */; };
 		BADF94A31799CD7700D5D6CA /* LocationMarkerForm.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF94A21799CD7700D5D6CA /* LocationMarkerForm.m */; };
-		BADF94A61799D05D00D5D6CA /* PrimaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF94A51799D05D00D5D6CA /* PrimaryViewController.m */; };
+		BADF94A61799D05D00D5D6CA /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF94A51799D05D00D5D6CA /* MapVC.m */; };
 		BADF94AA1799D49100D5D6CA /* Rackspace-helios.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADF94A91799D49100D5D6CA /* Rackspace-helios.storyboard */; };
 		BADF94AC179D94F600D5D6CA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADF94AB179D94F600D5D6CA /* CoreLocation.framework */; };
 		BADF94AE179D94FD00D5D6CA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADF94AD179D94FD00D5D6CA /* MapKit.framework */; };
+		BADF94B1179DF15500D5D6CA /* MarkerListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF94B0179DF15500D5D6CA /* MarkerListTVC.m */; };
+		BADF94B4179DF18B00D5D6CA /* MarkerImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF94B3179DF18B00D5D6CA /* MarkerImageVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,11 +54,15 @@
 		BADF949F1799CCF400D5D6CA /* LocationMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationMarker.m; sourceTree = "<group>"; };
 		BADF94A11799CD7700D5D6CA /* LocationMarkerForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationMarkerForm.h; sourceTree = "<group>"; };
 		BADF94A21799CD7700D5D6CA /* LocationMarkerForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationMarkerForm.m; sourceTree = "<group>"; };
-		BADF94A41799D05D00D5D6CA /* PrimaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrimaryViewController.h; path = views/PrimaryViewController.h; sourceTree = "<group>"; };
-		BADF94A51799D05D00D5D6CA /* PrimaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrimaryViewController.m; path = views/PrimaryViewController.m; sourceTree = "<group>"; };
+		BADF94A41799D05D00D5D6CA /* MapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapVC.h; path = views/MapVC.h; sourceTree = "<group>"; };
+		BADF94A51799D05D00D5D6CA /* MapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapVC.m; path = views/MapVC.m; sourceTree = "<group>"; };
 		BADF94A91799D49100D5D6CA /* Rackspace-helios.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Rackspace-helios.storyboard"; path = "views/Rackspace-helios.storyboard"; sourceTree = "<group>"; };
 		BADF94AB179D94F600D5D6CA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BADF94AD179D94FD00D5D6CA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BADF94AF179DF15500D5D6CA /* MarkerListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarkerListTVC.h; path = views/MarkerListTVC.h; sourceTree = "<group>"; };
+		BADF94B0179DF15500D5D6CA /* MarkerListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarkerListTVC.m; path = views/MarkerListTVC.m; sourceTree = "<group>"; };
+		BADF94B2179DF18B00D5D6CA /* MarkerImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarkerImageVC.h; path = views/MarkerImageVC.h; sourceTree = "<group>"; };
+		BADF94B3179DF18B00D5D6CA /* MarkerImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarkerImageVC.m; path = views/MarkerImageVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,8 +142,12 @@
 		BADF94A71799D06A00D5D6CA /* views */ = {
 			isa = PBXGroup;
 			children = (
-				BADF94A41799D05D00D5D6CA /* PrimaryViewController.h */,
-				BADF94A51799D05D00D5D6CA /* PrimaryViewController.m */,
+				BADF94A41799D05D00D5D6CA /* MapVC.h */,
+				BADF94A51799D05D00D5D6CA /* MapVC.m */,
+				BADF94AF179DF15500D5D6CA /* MarkerListTVC.h */,
+				BADF94B0179DF15500D5D6CA /* MarkerListTVC.m */,
+				BADF94B2179DF18B00D5D6CA /* MarkerImageVC.h */,
+				BADF94B3179DF18B00D5D6CA /* MarkerImageVC.m */,
 				BADF94A91799D49100D5D6CA /* Rackspace-helios.storyboard */,
 			);
 			name = views;
@@ -231,7 +241,9 @@
 				BADF949D1799CCEA00D5D6CA /* LocationImage.m in Sources */,
 				BADF94A01799CCF400D5D6CA /* LocationMarker.m in Sources */,
 				BADF94A31799CD7700D5D6CA /* LocationMarkerForm.m in Sources */,
-				BADF94A61799D05D00D5D6CA /* PrimaryViewController.m in Sources */,
+				BADF94A61799D05D00D5D6CA /* MapVC.m in Sources */,
+				BADF94B1179DF15500D5D6CA /* MarkerListTVC.m in Sources */,
+				BADF94B4179DF18B00D5D6CA /* MarkerImageVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
