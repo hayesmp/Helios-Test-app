@@ -1,0 +1,5 @@
+platform :ios, '6.0'
+pod 'AFNetworking'
+pod 'AFCloudFilesClient', :git => 'https://github.com/hayesmp/AFCloudFilesClient.git'
+pod 'Specta',      '~> 0.1.11'
+pod 'Expecta',     '~> 0.2.2'

@@ -1,0 +1,24 @@
+PODS:
+  - AFCloudFilesClient (0.0.5):
+    - AFNetworking
+  - AFNetworking (1.3.1)
+  - Expecta (0.2.2)
+  - Specta (0.1.11)
+
+DEPENDENCIES:
+  - AFCloudFilesClient (from `https://github.com/hayesmp/AFCloudFilesClient.git`)
+  - AFNetworking
+  - Expecta (~> 0.2.2)
+  - Specta (~> 0.1.11)
+
+EXTERNAL SOURCES:
+  AFCloudFilesClient:
+    :git: https://github.com/hayesmp/AFCloudFilesClient.git
+
+SPEC CHECKSUMS:
+  AFCloudFilesClient: a1d7d1dbeb3297693407f6aa039f809e71f8c074
+  AFNetworking: 9ec8aafb9269236a7630bd8d9838ce2ba30fa2a0
+  Expecta: 99adbb2e366a02796477523bfd426143350d9caf
+  Specta: 82746c6fd70b104c5d37cfbadb7bf15a2cbc4da0
+
+COCOAPODS: 0.22.3
