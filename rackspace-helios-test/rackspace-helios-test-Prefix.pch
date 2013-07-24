@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'rackspace-helios-test' target in the 'rackspace-helios-test' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

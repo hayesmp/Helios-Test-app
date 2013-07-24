@@ -13,7 +13,7 @@
 @end
 
 @implementation MapVC
-@synthesize scrollView, scrollingView, pageControl;
+@synthesize mapView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     
 }
 

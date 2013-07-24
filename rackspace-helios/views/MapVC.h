@@ -12,7 +12,9 @@
 
 @interface MapVC : UIViewController {
     
+    MKMapView* mapView;
+    
 }
-
+@property (nonatomic, strong) IBOutlet MKMapView* mapView;
 
 @end
